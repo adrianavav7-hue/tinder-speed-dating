@@ -2,7 +2,7 @@
 
 ## 📌 Présentation du projet
 
-Ce projet explore les facteurs qui influencent l’attraction et les décisions prises lors de rencontres rapides (speed dating).
+Ce projet explore les facteurs qui influencent l’attraction et les décisions prises lors du speed dating.
 
 Les données proviennent d’événements de speed dating organisés entre 2002 et 2004. Lors de ces événements, les participants avaient des rendez-vous de quatre minutes avec plusieurs personnes du sexe opposé. Après chaque rencontre, ils indiquaient s’ils souhaitaient revoir leur partenaire et évaluaient différentes caractéristiques.
 
@@ -41,16 +41,6 @@ dec : décision du participants.
 match : indique si les deux participants ont mutuellement souhaité se revoir.
 
 **Origine et préférences personnelles**
-
-race : origine ethnique du participant.
-
-samerace : indique si les deux participants ont la même origine ethnique.
-
-imprace : importance accordée au fait que le partenaire ait la même origine ethnique.
-
-imprelig : importance accordée au fait que le partenaire partage la même religion.
-
-**Origine et préférences personnelles
 
 race : origine ethnique du participant.
 
@@ -100,8 +90,6 @@ tv : télévision, etc.
 L’analyse exploratoire est divisée en deux parties : l’analyse des profils des participants et l’analyse des matchs. La première vise à comprendre les caractéristiques, les motivations et les préférences de la population étudiée. La seconde examine les facteurs associés aux décisions mutuelles de se revoir.
 
 1. Profils des participants 
-
-L’analyse exploratoire est divisée en deux parties : l’analyse des profils des participants et l’analyse des matchs. La première vise à comprendre les caractéristiques, les motivations et les préférences de la population étudiée. La seconde examine les facteurs associés aux décisions mutuelles de se revoir.
 
 **Caractéristiques démographiques**
 
@@ -174,6 +162,14 @@ Plus de 10 ans : 7,83 %.
 Le test du chi carré met en évidence une association statistiquement significative entre la catégorie d’écart d’âge et le résultat de la rencontre ((p < 0,001)).
 
 Ces résultats montrent que les rencontres entre personnes d’âges proches présentent un taux de match plus élevé dans l’échantillon étudié. Ils ne permettent toutefois pas d’affirmer que la proximité d’âge est, à elle seule, la cause de cette différence.
+
+**Influence de la similarité des activités**
+
+L'analyse des écarts moyens par activité chez les participants ayant obtenu un match montre que les plus faibles écarts concernent le dîner (1,88), la lecture (1,94), les films (1,95) et la musique (1,99). À l'inverse, les écarts sont plus importants pour le shopping (3,15), le yoga (3,16) et les tvsports (3,16).
+
+Cependant, le test de Mann–Whitney ne met pas en évidence de différence statistiquement significative entre les rencontres ayant abouti à un match et celles n'ayant pas abouti à un match (p = 0,0662). L'écart moyen est de 2,62 pour les rencontres avec match, contre 2,66 pour celles sans match.
+
+Ces résultats ne permettent donc pas de conclure que la similarité des activités est associée de manière statistiquement significative à l'obtention d'un match.
 
 **Conclusion de l’analyse des matchs**
 
